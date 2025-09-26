@@ -1,0 +1,48 @@
+{
+  "name": "xpr-token-transfer-cli",
+  "version": "1.0.0",
+  "description": "Advanced CLI script for sending XPR tokens on Proton blockchain with enhanced security, performance optimization, and monitoring",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node test.js",
+    "demo": "node demo.js",
+    "dev": "nodemon index.js",
+    "security-test": "node examples/error-handling.js",
+    "performance-test": "node -e \"require('./utils/performance.js').initializePerformance(require('./config'))\""
+  },
+  "keywords": [
+    "proton",
+    "xpr",
+    "blockchain",
+    "token",
+    "transfer",
+    "cli",
+    "security",
+    "performance",
+    "monitoring",
+    "crypto",
+    "defi"
+  ],
+  "author": "ChuongDo",
+  "license": "MIT",
+  "dependencies": {
+    "@proton/js": "^28.0.0",
+    "@proton/vert": "^0.3.24",
+    "dotenv": "^16.3.1",
+    "commander": "^11.1.0",
+    "winston": "^3.11.0",
+    "axios": "^1.6.0",
+    "crypto": "^1.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/XPRNetwork/developer-examples"
+  }
+}
