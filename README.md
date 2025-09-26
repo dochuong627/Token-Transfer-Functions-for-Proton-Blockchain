@@ -189,8 +189,6 @@ node examples/error-handling.js
 
 ## References
 
-- [Proton Documentation](https://docs.protonchain.com/)
-- [@proton/js SDK](https://github.com/ProtonProtocol/proton-js)
 - [XPR Network](https://xprnetwork.org/)
 
 ## Contributing
